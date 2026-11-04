@@ -33,10 +33,7 @@ Add the two `source` lines above to `ios/Podfile`.
 
 | Pod | What it is |
 |---|---|
-| `DigiaEngage` | Core SDK (binary XCFramework) |
-| `DigiaEngageCleverTap` | CleverTap plugin |
-| `DigiaEngageWebEngage` | WebEngage plugin |
-| `DigiaMoEngage` | MoEngage plugin |
+| `DigiaEngage` | Core SDK (binary XCFramework), version 4.0.0 and later |
 
-This repo contains every published version, including those released before the move, so a
-pinned older version still resolves.
+Earlier `DigiaEngage` versions and the CEP plugin pods resolve from CocoaPods trunk through the
+second `source` line.
