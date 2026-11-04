@@ -40,8 +40,3 @@ Add the two `source` lines above to `ios/Podfile`.
 
 This repo contains every published version, including those released before the move, so a
 pinned older version still resolves.
-
-## Publishing
-
-Each SDK repo's release script publishes here with `pod repo push digia`. Don't edit specs by
-hand.
